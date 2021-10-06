@@ -1,0 +1,29 @@
+.edit{
+    display: inline-block;
+    width: 50%;
+    height: 20%;
+    background-color: aquamarine;
+    font-size: large;
+    font-style: italic;
+    color: brown;
+}
+.edit2{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    background-color: darkblue;
+}
+ @media screen and (max-width:600px){
+     .edit{
+         display: block;
+         width: 50%;
+         height: 20%;
+         background-color: aquamarine;
+     }
+       .edit2{
+           display: inline-block;
+           width: 20%;
+           height: 20%;
+           background-color: darkblue;
+       }
+ }
